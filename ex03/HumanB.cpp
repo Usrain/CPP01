@@ -6,7 +6,7 @@
 /*   By: malebrun <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/03/24 21:31:53 by malebrun          #+#    #+#             */
-/*   Updated: 2026/03/26 16:04:55 by malebrun         ###   ########.fr       */
+/*   Updated: 2026/03/28 18:14:28 by malebrun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ void HumanB::setWeapon(Weapon *w)
 
 void HumanB::attack()
 {
-	std::cout << this->name <<" attacks with their " << this->Weapon->getType() << std::endl;
+	std::cout << name <<" attacks with their " << wType->getType() << std::endl;
 }
 
 HumanB::HumanB(std::string name, Weapon *wType)
